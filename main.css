@@ -1,25 +1,43 @@
 body{
     background-color: black;
-    font-family:'Times New Roman', Times, serif
-    
+    font-family:'Times New Roman', Times, serif;
+    margin:0px;
+    max-width: 100dvw;
 }
 
 .div1   {
-    top:10dvh
+    top:0;
+    height:10dvh;
 }
 
 .navBar {
     background-color: azure;
+    width: 100dvw;
+    position: sticky;
+    left:0;
+    top: 0;
+    height:10dvh;
 }
 
 .navBarDiv  {
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width:100dvw
+    width:100dvw;
+    background-color: azure;
+
 }
 
 .navBarContent   {
     font-size: 3dvh;
     font-weight: 300;
+    transition: all ease .2s;
+    background-color: azure;
+
+}
+
+.navBarContent:hover    {
+    transform: translateY(-10%);
+    cursor: pointer;
+
 }
