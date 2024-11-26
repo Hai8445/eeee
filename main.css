@@ -3,3 +3,23 @@ body{
     font-family:'Times New Roman', Times, serif
     
 }
+
+.div1   {
+    top:10dvh
+}
+
+.navBar {
+    background-color: azure;
+}
+
+.navBarDiv  {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:100dvw
+}
+
+.navBarContent   {
+    font-size: 3dvh;
+    font-weight: 300;
+}
